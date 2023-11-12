@@ -1,0 +1,12 @@
+# IO.Swagger.Model.ChatCompletionStreamResponseDelta
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Content** | **string** | The contents of the chunk message. | [optional] 
+**FunctionCall** | [**ChatCompletionStreamResponseDeltaFunctionCall**](ChatCompletionStreamResponseDeltaFunctionCall.md) |  | [optional] 
+**ToolCalls** | [**List&lt;ChatCompletionMessageToolCallChunk&gt;**](ChatCompletionMessageToolCallChunk.md) |  | [optional] 
+**Role** | **string** | The role of the author of this message. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
